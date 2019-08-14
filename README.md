@@ -1,8 +1,11 @@
+# 说明
+1. 此项目不属于我，原始项目 [https://gitee.com/ztp/redisson-spring-boot-starter](https://gitee.com/ztp/redisson-spring-boot-starter)
+
+2. 我是搬运工
+
 # redisson-spring-boot-starter
 
-此项目不属于我，原始项目 [https://gitee.com/ztp/redisson-spring-boot-starter](https://gitee.com/ztp/redisson-spring-boot-starter)
 
-**我是搬瓦工**
  
 目前有很多项目还在使用jedis的 `setNx` 充当分布式锁,然而这个锁是有问题的,redisson是java支持redis的redlock的`唯一`实现,
 集成该项目后只需要极少的配置.就能够使用redisson的全部功能. 目前支持
